@@ -5,7 +5,7 @@ import { ShoppingBag, Truck, Handshake, Search, ChevronRight } from 'lucide-reac
 
 const MarketplaceHero: React.FC = () => {
   return (
-    <section className="pt-24 lg:pt-32 relative">
+    <section className="pt-24 mt-20 lg:pt-32 relative">
       <div className="absolute inset-0 bg-marketplace-pattern bg-cover bg-center">
         <div className="absolute inset-0 bg-secondary-700"></div>
       </div>

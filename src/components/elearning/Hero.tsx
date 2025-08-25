@@ -5,7 +5,7 @@ import { BookOpen, Calendar, AlignCenterVertical as Certificate, ChevronRight } 
 
 const ELearningHero: React.FC = () => {
   return (
-    <section className="pt-24 lg:pt-32 relative">
+    <section className="pt-24 mt-20 lg:pt-32 relative">
       <div className="absolute inset-0 bg-elearning-pattern bg-cover bg-center">
         <div className="absolute inset-0 bg-primary-900 bg-opacity-70"></div>
       </div>
