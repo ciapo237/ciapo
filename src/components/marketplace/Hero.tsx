@@ -7,7 +7,7 @@ const MarketplaceHero: React.FC = () => {
   return (
     <section className="pt-24 lg:pt-32 relative">
       <div className="absolute inset-0 bg-marketplace-pattern bg-cover bg-center">
-        <div className="absolute inset-0 bg-secondary-700 bg-opacity-75"></div>
+        <div className="absolute inset-0 bg-secondary-700"></div>
       </div>
       
       <div className="container-custom relative z-10 pb-20 lg:pb-32">
