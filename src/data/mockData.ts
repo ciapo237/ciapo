@@ -568,6 +568,7 @@ export const courses: Course[] = [
     videoDuration: '2 hours | 15 lessons',
     thumbnail: 'https://via.placeholder.com/800x450?text=Course+Thumbnail',
     videoUrl: Course1,
+    price: 50000,
   },
   {
     id: '2',
@@ -582,6 +583,7 @@ export const courses: Course[] = [
     videoDuration: '2 hours | 15 lessons',
     thumbnail: 'https://via.placeholder.com/800x450?text=Course+Thumbnail',
     videoUrl: Course1,
+    price: 50000,
 
   },
   {
@@ -597,6 +599,7 @@ export const courses: Course[] = [
     videoDuration: '2 hours | 15 lessons',
     thumbnail: 'https://via.placeholder.com/800x450?text=Course+Thumbnail',
     videoUrl: Course1,
+    price: 50000,
 
   },
   {
@@ -612,6 +615,7 @@ export const courses: Course[] = [
     videoDuration: '2 hours | 15 lessons',
     thumbnail: 'https://via.placeholder.com/800x450?text=Course+Thumbnail',
     videoUrl: Course1,
+    price: 50000,
   },
   {
     id: '5',
@@ -626,6 +630,7 @@ export const courses: Course[] = [
     videoDuration: '2 hours | 15 lessons',
     thumbnail: 'https://via.placeholder.com/800x450?text=Course+Thumbnail',
     videoUrl: Course1,
+    price: 50000,
   },
   {
     id: '6',
@@ -640,6 +645,7 @@ export const courses: Course[] = [
     videoDuration: '2 hours | 15 lessons',
     thumbnail: 'https://via.placeholder.com/800x450?text=Course+Thumbnail',
     videoUrl: Course1,
+    price: 50000,
   },
   {
     id: '7',
@@ -654,6 +660,7 @@ export const courses: Course[] = [
     videoDuration: '2 hours | 15 lessons',
     thumbnail: 'https://via.placeholder.com/800x450?text=Course+Thumbnail',
     videoUrl: Course1,
+    price: 50000,
   },
   {
     id: '8',
@@ -668,6 +675,7 @@ export const courses: Course[] = [
     videoDuration: '2 hours | 15 lessons',
     thumbnail: 'https://via.placeholder.com/800x450?text=Course+Thumbnail',
     videoUrl: Course1,
+    price: 50000,
   },
   {
     id: '9',
@@ -682,6 +690,7 @@ export const courses: Course[] = [
     videoDuration: '2 hours | 15 lessons',
     thumbnail: 'https://via.placeholder.com/800x450?text=Course+Thumbnail',
     videoUrl: Course1,
+    price: 50000,
   },
   {
     id: '10',
@@ -696,6 +705,7 @@ export const courses: Course[] = [
     videoDuration: '2 hours | 15 lessons',
     thumbnail: 'https://via.placeholder.com/800x450?text=Course+Thumbnail',
     videoUrl: Course1,
+    price: 50000,
   },
   {
     id: '11',
@@ -710,6 +720,7 @@ export const courses: Course[] = [
     videoDuration: '2 hours | 15 lessons',
     thumbnail: 'https://via.placeholder.com/800x450?text=Course+Thumbnail',
     videoUrl: Course1,
+    price: 50000,
   }
 ];
 
