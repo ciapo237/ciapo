@@ -219,7 +219,7 @@ const CourseListPage: React.FC = () => {
   }, [filterState, searchQuery]);
 
   return (
-    <div className="min-h-screen bg-neutral-50">
+    <div className="min-h-screen bg-neutral-50 mt-20">
       {/* En-tête avec recherche */}
       <section className="pt-28 pb-12 bg-gradient-to-b from-primary-700 to-primary-800 text-white">
         <div className="container-custom">

@@ -205,7 +205,7 @@ const ProductListPage: React.FC = () => {
   }, [filterState, searchQuery]);
 
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen mt-20">
       {/* En-tête avec recherche */}
       <section className="pt-28 pb-12 bg-gradient-to-b from-secondary-600 to-secondary-700 text-dark">
         <div className="container-custom">
