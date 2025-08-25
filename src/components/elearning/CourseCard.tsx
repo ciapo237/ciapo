@@ -39,10 +39,13 @@ const CourseCard: React.FC<CourseCardProps> = ({ course, delay = 0 }) => {
             {course.title}
           </h3>
         </Link>
-        
+        <div className="text-sm my-2">
+          <span className="text-neutral-600">Par: </span>
+          <span className="font-medium">{course.instructor}</span>
+        </div>
         <p className="text-neutral-600 mb-4 line-clamp-2">{course.description}</p>
         
-        <div className="flex items-center gap-4 mb-4 text-sm text-neutral-500">
+        <div className="flex flex-wrap items-center gap-4 mb-4 text-sm text-neutral-500">
           <div className="flex items-center">
             <Clock size={16} className="mr-1" />
             <span>{course.duration}</span>
@@ -58,10 +61,6 @@ const CourseCard: React.FC<CourseCardProps> = ({ course, delay = 0 }) => {
         </div>
         
         <div className="flex items-center justify-between">
-          <div className="text-sm">
-            <span className="text-neutral-600">Par: </span>
-            <span className="font-medium">{course.instructor}</span>
-          </div>
           
           <Link 
             to={`/elearning/courses/${course.id}`}
