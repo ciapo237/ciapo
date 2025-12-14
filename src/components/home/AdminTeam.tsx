@@ -289,7 +289,7 @@ const AdminTeam: React.FC = () => {
               className="col-span-1"
             >
               <div className="bg-white rounded-lg shadow-md overflow-hidden h-full">
-                <div className="relative h-60">
+                <div className="relative h-96">
                   <img
                     src={member.image}
                     alt={member.name}
