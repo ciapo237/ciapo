@@ -4,7 +4,7 @@ import { Mail, Phone, Linkedin, MapPin, ChevronLeft, ChevronRight } from 'lucide
 import SectionTitle from '../shared/SectionTitle';
 
 // Import des images
-import OYONO from '../../assets/teams/MICHEL.png';
+import OYONO from '../../assets/teams/michel.jpg';
 import sandrine from '../../assets/teams/SANDRINE.png';
 import Charly from '../../assets/teams/CHARLY.png';
 import marie from '../../assets/teams/MARIE.png';
@@ -15,6 +15,8 @@ import Fadi from '../../assets/teams/Fadi.png';
 import Boris from '../../assets/teams/BORIS.png';
 import Florence from '../../assets/teams/FLORENCE.png';
 import Bell from '../../assets/teams/Bell.png';
+import Marc from '../../assets/teams/marc.png';
+import Yvette from '../../assets/teams/yvette.jpg';
 
 const AdminTeam: React.FC = () => {
   const team = [
@@ -29,16 +31,6 @@ const AdminTeam: React.FC = () => {
       location: 'Ebolowa, Sud Cameroun'
     },
     {
-      name: 'Mme. Evina Marie Noëlle E.',
-      role: 'Présidente du Conseil de Surveillance',
-      image: marie,
-      bio: 'Présidente du Conseil de Surveillance à CIAPO',
-      email: 'ciapocoopca@gmail.com',
-      phone: '+237 652 498 313',
-      linkedin: 'https://linkedin.com',
-      location: 'Ebolowa, Sud Cameroun'
-    },
-    {
       name: 'Mme. Ngo Kona Sandrine',
       role: 'Secrétaire Générale',
       image: sandrine,
@@ -49,6 +41,26 @@ const AdminTeam: React.FC = () => {
       location: 'Ebolowa, Sud Cameroun'
     },
     {
+      name: 'M. Gamogha Djantcha Geldas Nickson',
+      role: 'Directeur De Projet',
+      image: Nickson,
+      bio: 'Ingénieur du Génie Rural à CIAPO-COOP-CA',
+      email: 'technique@ciapo-coop-ca.org',
+      phone: '+237 652 498 313',
+      linkedin: 'https://linkedin.com',
+      location: 'Bafoussam, Ouest Cameroun'
+    },
+    {
+      name: 'M. TATCHOU Marc',
+      role: 'Directeur des Systèmes d\'Information',
+      image: Marc,
+      bio: 'Responsable informatique à CIAPO-COOP-CA',
+      email: 'marctatchou32@gmailcom',
+      phone: '+32 465 57 92 23',
+      linkedin: 'https://www.linkedin.com/in/marc-tatchou-85891a243/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BDjTzZPQ8Rl2ovbdVVGRzQQ%3D%3D',
+      location: 'Alost, Belgique (UE)'
+    },
+    {
       name: 'M. Ndzana Franky Charly',
       role: 'Directeur Technique',
       image: Charly,
@@ -57,16 +69,6 @@ const AdminTeam: React.FC = () => {
       phone: '+237 652 498 313',
       linkedin: 'https://linkedin.com',
       location: 'Yaoundé, Centre Cameroun'
-    },
-    {
-      name: 'M. Gamogha Djantcha Geldas Nickson',
-      role: 'Chef De Projet',
-      image: Nickson,
-      bio: 'Ingénieur du Génie Rural, Chef De Projet CIAPO-COOP-CA',
-      email: 'technique@ciapo-coop-ca.org',
-      phone: '+237 652 498 313',
-      linkedin: 'https://linkedin.com',
-      location: 'Bafoussam, Ouest Cameroun'
     },
     {
       name: 'Mme. Kowssima Marly Yaya',
@@ -87,6 +89,26 @@ const AdminTeam: React.FC = () => {
       phone: '+237 652 498 313',
       linkedin: 'https://linkedin.com',
       location: 'Garoua, Nord Cameroun'
+    },
+    {
+      name: 'Mme. Evina Marie Noëlle E.',
+      role: 'Présidente du Conseil de Surveillance',
+      image: marie,
+      bio: 'Présidente du Conseil de Surveillance à CIAPO',
+      email: 'ciapocoopca@gmail.com',
+      phone: '+237 652 498 313',
+      linkedin: 'https://linkedin.com',
+      location: 'Ebolowa, Sud Cameroun'
+    },
+    {
+      name: 'Mme. NEBA Yvette NGENEFORM',
+      role: 'Secrétaire de DIrection',
+      image: Yvette,
+      bio: 'Secrétaire de Direction Bilingue à CIAPO',
+      email: 'ciapocoopca@gmail.com',
+      phone: '+237 652 498 313',
+      linkedin: 'https://linkedin.com',
+      location: 'Ebolowa, Sud Cameroun'
     },
     {
       name: 'Mme. Fadi Haman',
@@ -124,7 +146,7 @@ const AdminTeam: React.FC = () => {
       image: Bell,
       bio: 'Experte en restauration et boulangerie internationale',
       email: 'ciapocoopca@gmail.com',
-      phone: '+237 ',
+      phone: '',
       linkedin: 'https://linkedin.com',
       location: 'Yaoundé, Centre Cameroun'
     }
@@ -189,7 +211,7 @@ const AdminTeam: React.FC = () => {
                     <img
                       src={member.image}
                       alt={member.name}
-                      className="w-full h-86 object-cover"
+                      className="w-full h-full object-cover"
                       loading="lazy"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent"></div>
