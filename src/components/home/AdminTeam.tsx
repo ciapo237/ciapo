@@ -31,24 +31,24 @@ const AdminTeam: React.FC = () => {
       location: 'Ebolowa, Sud Cameroun'
     },
     {
-      name: 'Mme. Ngo Kona Sandrine',
-      role: 'Secrétaire Générale',
-      image: sandrine,
-      bio: 'Secrétaire Générale à CIAPO',
+      name: 'Mme. NEBA Yvette NGENEFORM',
+      role: 'Secrétaire de DIrection',
+      image: Yvette,
+      bio: 'Secrétaire de Direction Bilingue à CIAPO',
       email: 'ciapocoopca@gmail.com',
       phone: '+237 652 498 313',
       linkedin: 'https://linkedin.com',
       location: 'Ebolowa, Sud Cameroun'
     },
     {
-      name: 'M. Gamogha Djantcha Geldas Nickson',
-      role: 'Directeur De Projet',
-      image: Nickson,
-      bio: 'Ingénieur du Génie Rural à CIAPO-COOP-CA',
-      email: 'technique@ciapo-coop-ca.org',
+      name: 'Mme. Evina Marie Noëlle E.',
+      role: 'Présidente du Conseil de Surveillance',
+      image: marie,
+      bio: 'Présidente du Conseil de Surveillance à CIAPO',
+      email: 'ciapocoopca@gmail.com',
       phone: '+237 652 498 313',
       linkedin: 'https://linkedin.com',
-      location: 'Bafoussam, Ouest Cameroun'
+      location: 'Ebolowa, Sud Cameroun'
     },
     {
       name: 'M. TATCHOU Marc',
@@ -61,6 +61,16 @@ const AdminTeam: React.FC = () => {
       location: 'Alost, Belgique (UE)'
     },
     {
+      name: 'Mme. Ngo Kona Sandrine',
+      role: 'Secrétaire Générale',
+      image: sandrine,
+      bio: 'Secrétaire Générale à CIAPO',
+      email: 'ciapocoopca@gmail.com',
+      phone: '+237 652 498 313',
+      linkedin: 'https://linkedin.com',
+      location: 'Ebolowa, Sud Cameroun'
+    },
+    {
       name: 'M. Ndzana Franky Charly',
       role: 'Directeur Technique',
       image: Charly,
@@ -69,6 +79,46 @@ const AdminTeam: React.FC = () => {
       phone: '+237 652 498 313',
       linkedin: 'https://linkedin.com',
       location: 'Yaoundé, Centre Cameroun'
+    },
+    {
+      name: 'M. Gamogha Djantcha Geldas Nickson',
+      role: 'Directeur De Projet',
+      image: Nickson,
+      bio: 'Ingénieur du Génie Rural à CIAPO-COOP-CA',
+      email: 'technique@ciapo-coop-ca.org',
+      phone: '+237 652 498 313',
+      linkedin: 'https://linkedin.com',
+      location: 'Bafoussam, Ouest Cameroun'
+    },
+    {
+      name: 'Mme. Fadi Haman',
+      role: 'Directrice Commerciale',
+      image: Fadi,
+      bio: 'Ingénieur Agronome, Spécialité: Économie Agricole et Management des Entreprises',
+      email: 'technique@ciapo-coop-ca.org',
+      phone: '+237 652 498 313',
+      linkedin: 'https://linkedin.com',
+      location: 'Ebolowa, Sud Cameroun'
+    },
+    {
+      name: 'M. Ndongo Mve Andre Boris',
+      role: 'Directeur Artistique',
+      image: Boris,
+      bio: 'Infographiste et Maintenancier informatique',
+      email: 'technique@ciapo-coop-ca.org',
+      phone: '+237 652 498 313',
+      linkedin: 'https://linkedin.com',
+      location: 'Ebolowa, Sud Cameroun'
+    },
+    {
+      name: 'Mme. Florence Eba Metende',
+      role: 'Assistante Directeur artistique',
+      image: Florence,
+      bio: 'Ingénieur Informaticienne / Développeuse',
+      email: 'developpeur@ciapo-coop-ca.org',
+      phone: '+237 691 918 168',
+      linkedin: 'https://linkedin.com',
+      location: 'Douala, Littoral Cameroun'
     },
     {
       name: 'Mme. Kowssima Marly Yaya',
@@ -89,56 +139,6 @@ const AdminTeam: React.FC = () => {
       phone: '+237 652 498 313',
       linkedin: 'https://linkedin.com',
       location: 'Garoua, Nord Cameroun'
-    },
-    {
-      name: 'Mme. Evina Marie Noëlle E.',
-      role: 'Présidente du Conseil de Surveillance',
-      image: marie,
-      bio: 'Présidente du Conseil de Surveillance à CIAPO',
-      email: 'ciapocoopca@gmail.com',
-      phone: '+237 652 498 313',
-      linkedin: 'https://linkedin.com',
-      location: 'Ebolowa, Sud Cameroun'
-    },
-    {
-      name: 'Mme. NEBA Yvette NGENEFORM',
-      role: 'Secrétaire de DIrection',
-      image: Yvette,
-      bio: 'Secrétaire de Direction Bilingue à CIAPO',
-      email: 'ciapocoopca@gmail.com',
-      phone: '+237 652 498 313',
-      linkedin: 'https://linkedin.com',
-      location: 'Ebolowa, Sud Cameroun'
-    },
-    {
-      name: 'Mme. Fadi Haman',
-      role: 'Directrice Commerciale',
-      image: Fadi,
-      bio: 'Ingénieur Agronome, Spécialité: Économie Agricole et Management des Entreprises',
-      email: 'technique@ciapo-coop-ca.org',
-      phone: '+237 652 498 313',
-      linkedin: 'https://linkedin.com',
-      location: 'Ebolowa, Sud Cameroun'
-    },
-    {
-      name: 'M. Ndongo Mve Andre Boris',
-      role: 'Informaticien',
-      image: Boris,
-      bio: 'Infographiste et Maintenancier informatique',
-      email: 'technique@ciapo-coop-ca.org',
-      phone: '+237 652 498 313',
-      linkedin: 'https://linkedin.com',
-      location: 'Ebolowa, Sud Cameroun'
-    },
-    {
-      name: 'Mme. Florence Eba Metende',
-      role: 'Expert Informaticienne',
-      image: Florence,
-      bio: 'Ingénieur Informaticienne / Développeuse',
-      email: 'developpeur@ciapo-coop-ca.org',
-      phone: '+237 691 918 168',
-      linkedin: 'https://linkedin.com',
-      location: 'Douala, Littoral Cameroun'
     },
     {
       name: 'Mme. Romane Brigitte Bell',
